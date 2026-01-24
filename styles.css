@@ -6,6 +6,13 @@ h1 {
     font-size: 48px;
 }
 
+h2,
+h3,
+h4 {
+    color: #032b4e;
+    margin-left: 20px;
+}
+
 p {
     font-size: 20px;
     line-height: 1.5;
@@ -15,6 +22,7 @@ p {
 body {
     background-color: #e0e0db;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
 }
 
 #summary,
@@ -42,4 +50,21 @@ body {
 .projectlink:hover {
     text-decoration: underline;
     color: #FF4500;
+}
+
+#inputString {
+    width: 300px;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+#reverseStringBtn {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    background-color: #032b4e;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
